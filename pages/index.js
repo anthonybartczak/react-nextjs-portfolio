@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Roadmap } from '../components/Roadmap';
 import { Navbar } from '../components/Navbar';
 import { Technologies } from '../components/Technologies';
+import { Projects } from '../components/Projects';
 import { FaYoutube, FaTwitch, FaGithub, FaLinkedin} from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import Particles from 'react-particles-js';
@@ -9,7 +10,6 @@ import particlesConfig from '../styles/particlesConfig';
 
 
 export default function Home() {
-
   
   const items = [{
     title: "September 2019",
@@ -27,6 +27,11 @@ export default function Home() {
     cardSubtitle	: "Specialista ds. Technicznej Obsługi Sklepów Internetowych",
   },];
 
+  const projects = [{
+
+
+  }]
+
   return (
     <>
       <div id='home' className=''>
@@ -39,8 +44,8 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"/>
         </Head>
         <Navbar/>
-        <div style={{ position: 'absolute', zIndex: -1, yIndex: 50 }}>
-          <Particles z-index="100" height="100%" width="100vw" params={particlesConfig} />
+        <div style={{ position: 'absolute', zIndex: -1}}>
+          <Particles z-index="-100" height="100%" width="100vw" params={particlesConfig} />
         </div>
         <main className="p-6 max-w-sm mx-auto bg-gray-50 rounded-xl shadow-md items-center my-5 flex flex-wrap justify-center">
           <div className="filter brightness-110 drop-shadow-xl backdrop-blur-lg object-contain mix-blend-multiply ">
@@ -57,36 +62,30 @@ export default function Home() {
           </div>
           <div className='align-middle justify-center'>
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/antoni-bartczak-525187183/">
-              <button className="bg-black hover:bg-gray-600 text-gray-100 py-2 px-4 mx-1 rounded inline-flex items-center transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+              <button className="btn-social">
                 <FaLinkedin/>
               </button>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/anthonybartczak">
-              <button className="bg-black hover:bg-gray-600 text-gray-100 py-2 px-4 mx-1 rounded inline-flex items-center transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+              <button className="btn-social">
                 <FaGithub/>
               </button>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/canadian_1">
-              <button className="bg-black hover:bg-gray-600 text-gray-100 py-2 px-4 mx-1 rounded inline-flex items-center transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+              <button className="btn-social">
                 <FaTwitch/>
               </button>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCPeryow1nJ7sElSp_xcYFLQ">
-              <button className="bg-black hover:bg-gray-600 text-gray-100 py-2 px-4 mx-1 rounded inline-flex items-center transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+              <button className="btn-social">
                 <FaYoutube/>
               </button>
             </a>
           </div>
         </main>
-        <div className="">
-          <Roadmap/>
-        </div>
-        <div className="">
-          <Technologies/>
-        </div>
-        <div className="">
-          
-        </div>
+        <Roadmap/>
+        <Technologies/>
+        <Projects/>
       </div>
   </>
   )

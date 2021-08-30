@@ -1,5 +1,4 @@
 import React from "react";
-import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt } from "react-icons/fa";
 
 export const Technologies = () => {
     return (
@@ -10,23 +9,23 @@ export const Technologies = () => {
                 <div className="text-center">
                     <a className="m-4 align-middle font-abel subpixel-antialiased text-xl text-center flex-row">FRONTEND</a>
                     <ul className="font-abel list-none flex-col text-center">
-                        <li className="border border-indigo-600 rounded-xl px-3 mt-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">React.js</li>
-                        <li className="border border-indigo-600 rounded-xl px-3 mt-2">Bootstrap</li>
-                        <li className="border border-indigo-600 rounded-xl px-3 mt-2">Tailwind</li>
+                        <li className="btn-techstack">React.js</li>
+                        <li className="btn-techstack">Bootstrap</li>
+                        <li className="btn-techstack">Tailwind</li>
                     </ul>
                 </div>
                 <div className="text-center">
                     <a className="m-4 align-middle font-abel subpixel-antialiased text-xl text-center flex-row">BACKEND</a>
                     <ul className="font-abel list-none flex-col text-center">
-                        <li className="border border-indigo-600 rounded-xl px-3 mt-2">Django</li>
-                        <li className="border border-indigo-600 rounded-xl px-3 mt-2">Next.js</li>
+                        <li className="btn-techstack">Django</li>
+                        <li className="btn-techstack">Next.js</li>
                     </ul>
                 </div>
                 <div className="text-center">
                     <a className="m-4 align-middle font-abel subpixel-antialiased text-xl text-center flex-row">DESIGN</a>
                     <ul className="font-abel list-none flex-col text-center">
-                        <li className="border border-indigo-600 rounded-xl px-3 mt-2">Adobe Photoshop</li>
-                        <li className="border border-indigo-600 rounded-xl px-3 mt-2">Adobe Premiere</li>
+                        <li className="btn-techstack">Adobe Photoshop</li>
+                        <li className="btn-techstack">Adobe Premiere</li>
                     </ul>
                 </div>
             </div>
