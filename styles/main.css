@@ -6,6 +6,17 @@ html {
     position: relative;
 }
 
+.title-techstack {
+    @apply
+    m-4
+    align-middle
+    font-abel
+    subpixel-antialiased
+    text-2xl
+    text-center
+    flex-col
+}
+
 .btn-techstack {
     @apply
     text-2xl
