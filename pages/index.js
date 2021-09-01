@@ -8,29 +8,7 @@ import Typewriter from 'typewriter-effect';
 import Particles from 'react-particles-js';
 import particlesConfig from '../styles/particlesConfig';
 
-
 export default function Home() {
-  
-  const items = [{
-    title: "September 2019",
-    cardTitle: "Hewlett Packard Enterprise",
-    cardSubtitle	: "Junior Sales Compensation Analyst",
-  },
-  {
-    title: "September 2020",
-    cardTitle: "Piwik PRO",
-    cardSubtitle	: "Technical Support Engineer",
-  },
-  {
-    title: "March 2021",
-    cardTitle: "Ringier Axel Springer Polska",
-    cardSubtitle	: "Specialista ds. Technicznej Obsługi Sklepów Internetowych",
-  },];
-
-  const projects = [{
-
-
-  }]
 
   return (
     <>
@@ -47,7 +25,7 @@ export default function Home() {
         <div style={{ position: 'absolute', zIndex: -1}}>
           <Particles z-index="-100" height="100%" width="100vw" params={particlesConfig} />
         </div>
-        <main className="p-6 max-w-sm mx-auto bg-gray-50 rounded-xl shadow-md items-center my-5 flex flex-wrap justify-center">
+        <main className="p-6 max-w-sm mx-auto bg-coolGray-50 rounded-md shadow-2xl items-center my-5 flex flex-wrap justify-center">
           <div className="filter brightness-110 drop-shadow-xl backdrop-blur-lg object-contain mix-blend-multiply ">
             <img src="/index-pic.jpg" alt="..." className="shadow-md rounded-full max-w-full h-auto align-middle border-none" />
           </div>
@@ -85,7 +63,6 @@ export default function Home() {
         </main>
         <Roadmap/>
         <Technologies/>
-        <Projects/>
       </div>
   </>
   )
