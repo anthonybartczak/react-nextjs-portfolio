@@ -3,7 +3,7 @@
 const particlesConfig = {
     "particles": {
       "number": {
-        "value": 250,
+        "value": 320,
         "density": {
           "enable": true,
           "value_area": 6076.4368405685
@@ -51,12 +51,12 @@ const particlesConfig = {
         "enable": true,
         "distance": 150,
         "color": "#000000",
-        "opacity": 0.4,
-        "width": 0.5
+        "opacity": 0.6,
+        "width": 0.3
       },
       "move": {
         "enable": true,
-        "speed": 1.603412060865523,
+        "speed": 0.7,
         "direction": "bottom",
         "random": false,
         "straight": false,
@@ -77,7 +77,7 @@ const particlesConfig = {
           "mode": "bubble"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true

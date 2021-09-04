@@ -22,10 +22,10 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"/>
         </Head>
         <Navbar/>
-        <div style={{ position: 'absolute', zIndex: -1}}>
-          <Particles z-index="-100" height="100%" width="100vw" params={particlesConfig} />
+        <div>
+          <Particles className="particles-background" params={particlesConfig} />
         </div>
-        <main className="p-6 max-w-sm mx-auto bg-coolGray-50 rounded-md shadow-2xl items-center my-5 flex flex-wrap justify-center">
+        <main className="p-6 max-w-sm mx-auto bg-coolGray-50 rounded-s shadow-2xl items-center my-5 flex flex-wrap justify-center">
           <div className="filter brightness-110 drop-shadow-xl backdrop-blur-lg object-contain mix-blend-multiply ">
             <img src="/index-pic.jpg" alt="..." className="shadow-md rounded-full max-w-full h-auto align-middle border-none" />
           </div>

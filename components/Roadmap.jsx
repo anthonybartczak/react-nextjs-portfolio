@@ -4,7 +4,7 @@ export const Roadmap = () => {
     return (
         <>
         <h1 id='timeline' className='mt-32 mb-4 align-middle font-abel subpixel-antialiased text-4xl text-center font-bold'>CAREER_TIMELINE</h1>
-            <div className="pt-4 pb-16 mb-32 align-middle justify-center max-w-xl mx-auto bg-coolGray-50 rounded-md shadow-2xl items-center">
+            <div className="pt-4 pb-16 mb-32 align-middle justify-center max-w-xl mx-auto">
                 <div className="w-auto align-middle justify-center items-center">
                     <div className="flex flex-col md:grid grid-cols-5 pr-10 text-gray-50">
                         <div className="flex md:contents">

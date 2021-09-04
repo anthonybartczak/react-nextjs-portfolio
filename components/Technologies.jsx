@@ -4,27 +4,27 @@ import { SiTailwindcss, SiNextDotJs, SiBootstrap, SiReact, SiDjango, SiAdobeprem
 export const Technologies = () => {
     return (
         <>
-        <div className="mb-32 p-6 max-w-2xl mx-auto items-center mt-24 flex flex-col justify-center">
-            <a id='tech-stack' className="m-4 align-middle font-abel subpixel-antialiased text-4xl text-center font-bold">FAVORITE_TECH</a>
-            <div className="flex-1">
-                <div className="bg-coolGray-50 rounded-md shadow-2xl text-center p-5 mb-8">
+        <div className="mb-32 max-w-4xl mx-auto items-center mt-24 flex flex-col justify-center">
+            <a id='tech-stack' className="m-8 align-middle font-abel subpixel-antialiased text-4xl text-center font-bold">MY_TECH_STACK</a>
+            <div className="flex flex-wrap lg:flex-row sm:flex-col justify-center md:space-x-8">
+                <div className="bg-coolGray-50 rounded-md shadow-2xl text-center p-5 mb-8 w-48">
                     <a className="title-techstack">FRONTEND</a>
-                    <ul className="font-abel list-none flex-col items-center">
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                    <ul className="font-abel list-none flex-col">
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
                             <SiReact className="mr-2"/>
-                            React.js
+                            <p>React.js</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
                             <SiBootstrap className="mr-2"/>
-                            Bootstrap
+                            <p>Bootstrap</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
                             <SiTailwindcss className="mr-2"/>
-                            Tailwind
+                            <p>Tailwind</p>
                         </li>
                     </ul>
                 </div>
-                <div className="bg-coolGray-50 rounded-md shadow-2xl text-center p-5 mb-8">
+                <div className="bg-coolGray-50 rounded-md shadow-2xl text-center p-5 mb-8 w-48">
                     <a className="title-techstack">BACKEND</a>
                     <ul className="font-abel list-none flex-col text-center">
                         <li className="btn-techstack border-teal-600 hover:bg-teal-600">
@@ -37,7 +37,7 @@ export const Technologies = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="bg-coolGray-50 rounded-md shadow-2xl text-center p-5 mb-8">
+                <div className="bg-coolGray-50 rounded-md shadow-2xl text-center p-5 mb-8 w-48">
                     <a className="title-techstack">DESIGN</a>
                     <ul className="font-abel list-none flex-col text-center">
                         <li className="btn-techstack border-indigo-600 hover:bg-indigo-600">
