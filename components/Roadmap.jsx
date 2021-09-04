@@ -3,9 +3,8 @@ import React from "react";
 export const Roadmap = () => {
     return (
         <>
-        <h1 id='timeline' className='mt-32 mb-4 align-middle font-abel subpixel-antialiased text-4xl text-center font-bold'>CAREER_TIMELINE</h1>
-            <div className="pt-4 pb-16 mb-32 align-middle justify-center max-w-xl mx-auto">
-                <div className="w-auto align-middle justify-center items-center">
+        <h1 id='timeline' className='mt-32 mb-4 font-abel subpixel-antialiased text-4xl text-center font-bold'>CAREER_TIMELINE</h1>
+                <div className="w-auto align-middle items-center justify-center max-w-xl mx-auto">
                     <div className="flex flex-col md:grid grid-cols-5 pr-10 text-gray-50">
                         <div className="flex md:contents">
                         <div className="col-start-1 col-end-2 mr-10 md:ml-auto relative">
@@ -18,7 +17,7 @@ export const Roadmap = () => {
                         </div>
                         <div className="block-timeline bg-gray-700">
                             <h3 className="font-abel font-semibold text-2xl mb-1">Hewlett Packard Enterprise</h3>
-                            <p className="font-abel leading-tight text-justify w-full text-lg">
+                            <p className="font-abel leading-tight w-full text-lg">
                             Junior Sales Compensation Analyst
                             </p>
                         </div>
@@ -35,7 +34,7 @@ export const Roadmap = () => {
                         </div>
                         <div className="block-timeline bg-gray-700">
                             <h3 className="font-abel font-semibold subpixel text-2xl mb-1">Piwik PRO</h3>
-                            <p className="font-abel leading-tight text-justify text-lg">
+                            <p className="font-abel leading-tight text-lg">
                             Technical Support Engineer
                             </p>
                         </div>
@@ -52,7 +51,7 @@ export const Roadmap = () => {
                         </div>
                         <div className="block-timeline bg-green-500">
                             <h3 className="font-abel font-semibold text-2xl mb-1 text-gray-50">Ringier Axel Springer Polska</h3>
-                            <p className="font-abel leading-tight text-lg text-justify">
+                            <p className="font-abel leading-tight text-lg">
                             Technical Service Specialist (E-commerce)
                             </p>
                         </div>
@@ -69,11 +68,10 @@ export const Roadmap = () => {
                         </div>
                         <div className="block-timeline bg-gray-300">
                             <h3 className="font-abel font-semibold text-xl mb-1 text-gray-400">To be continued...</h3>
-                            <p className="leading-tight text-justify">
+                            <p className="leading-tight">
                             </p>
                         </div>
                     </div>
-                </div>
             </div>
             </div>
         </>

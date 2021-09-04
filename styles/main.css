@@ -16,6 +16,17 @@ html {
     z-index: -1;
 }
 
+.item-techstack {
+    @apply
+    bg-coolGray-50
+    rounded-md
+    shadow-2xl
+    text-center
+    p-5
+    mb-8
+    w-48
+}
+
 .title-techstack {
     @apply
     m-4
