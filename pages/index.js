@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import { Roadmap } from '../components/Roadmap';
-import { Navbar } from '../components/Navbar';
-import { Technologies } from '../components/Technologies';
+import { Roadmap } from '../components/roadmap';
+import { Navbar } from '../components/navbar';
+import { Technologies } from '../components/technologies';
 import { FaYoutube, FaTwitch, FaGithub, FaLinkedin} from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import Particles from 'react-particles-js';
