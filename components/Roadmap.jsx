@@ -3,7 +3,7 @@ import React from "react";
 export const Roadmap = () => {
     return (
         <>
-        <h1 id='timeline' className='mt-32 mb-4 font-abel subpixel-antialiased text-4xl text-center font-bold'>CAREER_TIMELINE</h1>
+        <h1 className='mt-32 mb-4 font-abel subpixel-antialiased text-4xl text-center font-bold'>CAREER_TIMELINE</h1>
                 <div className="w-auto align-middle items-center justify-center max-w-xl mx-auto">
                     <div className="flex flex-col md:grid grid-cols-5 pr-10 text-gray-50">
                         <div className="flex md:contents">

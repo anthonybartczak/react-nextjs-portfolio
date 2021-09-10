@@ -4,8 +4,8 @@ import { SiTailwindcss, SiNextDotJs, SiBootstrap, SiReact, SiDjango, SiAdobeprem
 export const Technologies = () => {
     return (
         <>
-        <div className="mb-32 max-w-4xl mx-auto items-center mt-24 flex flex-col justify-center">
-            <a id='tech-stack' className="m-8 align-middle font-abel subpixel-antialiased text-4xl text-center font-bold">MY_TECH_STACK</a>
+        <div className="pb-64 max-w-4xl mx-auto items-center mt-24 flex flex-col justify-center">
+            <a className="m-8 align-middle font-abel subpixel-antialiased text-4xl text-center font-bold">MY_TECH_STACK</a>
             <div className="flex justify-around flex-wrap lg:flex-row md:flex-col lg:space-x-8 place-content-stretch">
                 <div className="item-techstack">
                     <a className="title-techstack">FRONTEND</a>

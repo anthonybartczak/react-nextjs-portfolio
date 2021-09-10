@@ -60,8 +60,12 @@ function Index() {
             </a>
           </div>
         </main>
-        <Roadmap/>
-        <Technologies/>
+        <section id="timeline">
+          <Roadmap/>
+        </section>
+        <section id="tech-stack">
+          <Technologies/>
+        </section>
       </div>
   </>
   )

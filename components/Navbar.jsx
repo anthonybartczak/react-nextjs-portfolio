@@ -63,7 +63,7 @@ export const Navbar = () => {
             <li><a onClick={() => scrollToID("home")} className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Home</a></li>
             <li><a onClick={() => scrollToID("timeline")} className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Timeline</a></li>
             <li><a onClick={() => scrollToID("tech-stack")} className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Tech</a></li>
-            <Link href={"/contact"} as={"/contact"} passHref><li><a className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Projects</a></li></Link>
+            <Link href={"/projects"} as={"/projects"} passHref><li><a className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Projects</a></li></Link>
             <Link href={"/contact"} as={"/contact"} passHref><li><a className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Contact</a></li></Link>
           </ul>
         </div>
