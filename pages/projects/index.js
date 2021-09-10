@@ -1,5 +1,4 @@
 import { CgArrowLeftR } from "react-icons/cg";
-import { useState, useEffect } from "react";
 import { SiGithub } from "react-icons/si";
 import Head from 'next/head';
 import languageColors from '../projects/github-language.colors';
@@ -49,7 +48,7 @@ function Projects( {repos} ) {
           <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
         </Head>
         <div className="bg-gray-800">
-          <Link href={"/"}>
+          <Link href={"/"} passHref>
             <span>
               <CgArrowLeftR className="projects-back-button" />
             </span>
