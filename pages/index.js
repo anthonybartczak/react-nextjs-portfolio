@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 import Particles from 'react-particles-js';
 import particlesConfig from '../styles/particlesConfig';
 
-export default function Home() {
+function Index() {
 
   return (
     <>
@@ -66,3 +66,5 @@ export default function Home() {
   </>
   )
 }
+
+export default Index
