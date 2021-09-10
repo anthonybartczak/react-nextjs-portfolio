@@ -38,8 +38,8 @@ export const Navbar = () => {
                 <a onClick={() => scrollToID("home")} className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Home</a>
                 <a onClick={() => scrollToID("timeline")} className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Timeline</a>
                 <a onClick={() => scrollToID("tech-stack")} className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Tech</a>
-                <Link href="/projects"><a className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Projects</a></Link>
-                <Link href="/contact"><a className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Contact</a></Link>
+                <Link href={"/projects"} as={"/projects"}><a className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Projects</a></Link>
+                <Link href={"/contact"} as={"/contact"}><a className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Contact</a></Link>
               </div>
             </div>
             <div className="md:hidden flex items-center">
