@@ -19,9 +19,9 @@ function Contact() {
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"/>
     </Head>
     <NavbarContact/>
-            <div className="relative">
-            <div className="mx-64 absolute filter -inset-0.5 bg-gradient-to-r from-teal-300 via-blue-400 to-purple-400 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <form className="relative bg-gray-800 rounded-2xl shadow-2xl md:col-span-8 mt-5 pt-8 pb-1 px-8 mx-2 xl:mx-64 sm:mx-6">
+            <div className="relative xl:my-10 my-0">
+            <div className="mx-4 xl:mx-80 absolute filter -inset-0.5 bg-gradient-to-r from-teal-300 via-blue-400 to-purple-400 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+            <form className="relative bg-gray-800 rounded-2xl shadow-2xl md:col-span-8 mt-5 pt-8 pb-1 px-8 mx-4 xl:mx-80">
                 <div className="flex flex-wrap -mx-3">
                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
