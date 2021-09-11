@@ -3,11 +3,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.repo-body{
-    background-color: #1F2937;
-    height: 100vh;
-}
-
 #home {
     position: relative;
 }
@@ -103,7 +98,7 @@ html, body {
 .repo-name {
     @apply
     text-2xl 
-    text-black 
+    text-white
     font-abel
     mb-3
     font-semibold
@@ -113,7 +108,7 @@ html, body {
     @apply
     transition
     transform hover:-translate-y-1
-    text-gray-800
+    text-white
 }
 
 .repo-language {
@@ -124,6 +119,7 @@ html, body {
     w-max
     py-1
     px-1.5
+    text-white
 }
 
 .repo-lang-dot {
@@ -144,4 +140,8 @@ html, body {
     height: 35px;
     width: fit-content;
     block-size: fit-content;
+}
+
+.dark-bg {
+    background-color: #161B22;
 }
