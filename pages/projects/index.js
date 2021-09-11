@@ -1,6 +1,6 @@
 import { CgArrowLeftR } from "react-icons/cg";
 import { SiGithub } from "react-icons/si";
-import { NavbarProjects } from '../../components/NavbarProjects';
+import { NavbarProjects } from '../../components/Navbarprojects';
 import Head from 'next/head';
 import languageColors from '../projects/github-language.colors';
 import {useSpring, animated} from 'react-spring'

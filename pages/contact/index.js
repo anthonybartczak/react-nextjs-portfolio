@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { NavbarContact } from '../../components/NavbarContact';
+import { NavbarContact } from '../../components/Navbarcontact';
 
 function Contact() {
     return (
