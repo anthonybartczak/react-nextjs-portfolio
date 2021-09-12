@@ -13,12 +13,14 @@ function Contact() {
     const handleSubmit = (e) => { 
         e.preventDefault()
         console.log('Sending')
-      let data = {
-        firstName,
-        lastName,
-        emailAddress,
-        messageContent
-    }
+        let data = {
+            firstName,
+            lastName,
+            emailAddress,
+            messageContent}
+        
+    alert('Your message has been sent! Thank you :)')
+        
     fetch('/api/contact', {
         method: 'POST',
         headers: {

@@ -24,7 +24,7 @@ export default function (req, res) {
         console.log(err)
       else
         console.log(info)
-        alert("The message was sent successfully! Thank you :)");
+        alert("The message was sent successfully! Thank you :)")
     })
     res.status(200)
 }
