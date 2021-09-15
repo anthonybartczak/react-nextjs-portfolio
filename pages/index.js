@@ -22,7 +22,7 @@ function Index() {
         </div>
         <main className="p-6 max-w-sm mx-auto bg-coolGray-50 rounded-s shadow-2xl items-center my-5 flex flex-wrap justify-center">
           <div className="filter brightness-110 drop-shadow-xl backdrop-blur-lg object-contain mix-blend-multiply">
-            <Image width="751" height="660"src="/index-pic.jpg" alt="..." className="shadow-md rounded-full max-w-full h-auto align-middle border-none" />
+            <Image width="751" height="660"src="/index-pic.webp" alt="..." className="shadow-md rounded-full max-w-full h-auto align-middle border-none" />
           </div>
           <div className='m-4 align-middle font-abel text-xl subpixel-antialiased font-medium text-center'>
           Hello! My name is Anthony,<br/><Typewriter
