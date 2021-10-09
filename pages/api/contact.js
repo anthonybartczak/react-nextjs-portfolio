@@ -1,4 +1,4 @@
-export default function contact (req, res) {
+async function contact (req, res) {
     require('dotenv').config()
     
     let nodemailer = require('nodemailer')
@@ -28,4 +28,3 @@ export default function contact (req, res) {
     })
     res.status(200)
 }
-
