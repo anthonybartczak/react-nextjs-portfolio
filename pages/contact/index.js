@@ -10,7 +10,7 @@ function Contact() {
     const [messageContent, setMessageContent] = useState('')
     const [submitted, setSubmitted] = useState(false)
 
-    const handleSubmit = (e) => { 
+    const handleSubmit = (e) => {
         e.preventDefault()
         console.log('Sending')
         let data = {
@@ -18,9 +18,9 @@ function Contact() {
             lastName,
             emailAddress,
             messageContent}
-        
+
     alert('Your message has been sent! Thank you :)')
-        
+
     fetch('/api/contact', {
         method: 'POST',
         headers: {
@@ -53,7 +53,7 @@ function Contact() {
         <title>Anthony Bartczak Portfolio</title>
     </Head>
     <NavbarContact/>
-            <div className="relative xl:my-10 my-0">
+            <div className="relative mt-12 mb-8">
             <div className="mx-4 xl:mx-80 absolute filter -inset-0.5 bg-gradient-to-r from-teal-300 via-blue-400 to-purple-400 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <form className="relative bg-gray-800 rounded-2xl shadow-2xl md:col-span-8 mt-5 pt-8 pb-1 px-8 mx-4 xl:mx-80">
                 <div className="flex flex-wrap -mx-3">
@@ -73,20 +73,18 @@ function Contact() {
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-6">
                     <div className="w-full px-3">
-                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-email-address">
+                    <label className="my-10 block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-email-address">
                         Email Address
                     </label>
                     <input onChange={(e)=>{setEmailAddress(e.target.value)}} className="appearance-none bg-transparent border-b border-teal-500 w-full text-gray-700 mr-3 p-4 leading-tight focus:outline-none focus:bg-gray-200" type="email" placeholder="example@exp.com" aria-label="Full name"/>
                     </div>
                 </div>
-                
                 <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full px-3">
-                <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-message-content">
+                <label className="my-10 block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-message-content">
                     Your Message
                 </label>
                 <textarea onChange={(e)=>{setMessageContent(e.target.value)}} rows="10" className="appearance-none bg-transparent border-b border-teal-500 w-full text-gray-700 mr-3 p-4 focus:bg-gray-200 leading-tight focus:outline-none" type="email" placeholder="Your message goes here." aria-label="Full name">
-                    
                 </textarea>
                 </div>
                 <div className="flex justify-between w-full px-3">

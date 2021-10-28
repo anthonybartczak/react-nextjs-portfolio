@@ -1,5 +1,5 @@
 import React from "react";
-import { SiTailwindcss, SiNextDotJs, SiBootstrap, SiReact, SiDjango, SiAdobepremiere, SiAdobephotoshop, SiNodeDotJs } from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiPrisma, SiChakraui, SiAdobexd, SiApollographql, SiNextdotjs, SiBootstrap, SiReact, SiDjango, SiAdobepremierepro, SiAdobephotoshop, SiNodedotjs } from "react-icons/si";
 
 export const Technologies = () => {
     return (
@@ -22,6 +22,10 @@ export const Technologies = () => {
                             <SiTailwindcss className="mr-2"/>
                             <p>Tailwind</p>
                         </li>
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
+                            <SiChakraui className="mr-2"/>
+                            <p>Chakra UI</p>
+                        </li>
                     </ul>
                 </div>
                 <div className="item-techstack">
@@ -29,15 +33,23 @@ export const Technologies = () => {
                     <ul className="font-abel list-none text-center">
                         <li className="btn-techstack border-teal-600 hover:bg-teal-600">
                             <SiDjango className="mr-2"/>
-                            Django
+                            <p>Django</p>
                         </li>
                         <li className="btn-techstack border-teal-600 hover:bg-teal-600">
-                            <SiNextDotJs className="mr-2"/>
-                            Next.js
+                            <SiNextdotjs className="mr-2"/>
+                            <p>Next.js</p>
                         </li>
                         <li className="btn-techstack border-teal-600 hover:bg-teal-600">
-                            <SiNodeDotJs className="mr-2"/>
-                            Node.js
+                            <SiNodedotjs className="mr-2"/>
+                            <p>Node.js</p>
+                        </li>
+                        <li className="btn-techstack border-teal-600 hover:bg-teal-600">
+                            <SiApollographql className="mr-2"/>
+                            <p>Apollo</p>
+                        </li>
+                        <li className="btn-techstack border-teal-600 hover:bg-teal-600">
+                            <SiPrisma className="mr-2"/>
+                            <p>Prisma</p>
                         </li>
                     </ul>
                 </div>
@@ -46,11 +58,15 @@ export const Technologies = () => {
                     <ul className="font-abel list-none text-center">
                         <li className="btn-techstack border-indigo-600 hover:bg-indigo-600">
                             <SiAdobephotoshop className="mr-2"/>
-                            Photoshop
+                            <p>Adobe Ps</p>
                         </li>
                         <li className="btn-techstack border-indigo-600 hover:bg-indigo-600">
-                            <SiAdobepremiere className="mr-2"/>
-                            Premiere
+                            <SiAdobexd className="mr-2"/>
+                            <p>Adobe XD</p>
+                        </li>
+                        <li className="btn-techstack border-indigo-600 hover:bg-indigo-600">
+                            <SiFigma className="mr-2"/>
+                            <p>Figma</p>
                         </li>
                     </ul>
                 </div>

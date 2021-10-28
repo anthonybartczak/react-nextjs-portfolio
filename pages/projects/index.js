@@ -26,7 +26,6 @@ function Projects( {repos} ) {
     return languageColors[langName]
   }
 
-  
   return (
       <>
         <style global jsx>{`
@@ -44,7 +43,7 @@ function Projects( {repos} ) {
         <NavbarProjects/>
         <div className="dark-bg">
           {repos && (
-          <div className="my-8 mx-8 grid gap-4 xl:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 md:gap-16 grid-flow-row items-center">
+          <div className="mt-8 pb-4 mx-8 grid gap-4 xl:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 md:gap-16 grid-flow-row items-center">
           {repos.map(repo => (
             <animated.div style={fade} key={repo.id}>
               <div className="relative my-2">

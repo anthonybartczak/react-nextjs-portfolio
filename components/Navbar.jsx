@@ -26,7 +26,7 @@ export const Navbar = () => {
   React.useEffect(() => {
     window.addEventListener('scroll', changeBackground)
   })
-  
+
   return (
     <>
       <nav id="navbar" className={navbar ? 'bg-gray-50 shadow-lg sticky top-0 z-50 transition-duration-400' : ''}>

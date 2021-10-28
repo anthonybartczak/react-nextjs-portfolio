@@ -33,6 +33,7 @@ html, body {
     p-5
     mb-8
     w-48
+    mx-2
 }
 
 .title-techstack {
@@ -97,7 +98,7 @@ html, body {
 
 .repo-name {
     @apply
-    text-2xl 
+    text-2xl
     text-white
     font-abel
     mb-3

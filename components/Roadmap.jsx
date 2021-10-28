@@ -5,9 +5,9 @@ export const Roadmap = () => {
         <>
         <h1 className='mt-32 mb-4 font-abel subpixel-antialiased text-4xl text-center font-bold'>CAREER_TIMELINE</h1>
                 <div className="w-auto align-middle items-center justify-center max-w-xl mx-auto">
-                    <div className="flex flex-col md:grid grid-cols-5 pr-10 text-gray-50">
+                    <div className="flex flex-col md:grid grid-cols-5 pr-12 text-gray-50 pl-2">
                         <div className="flex md:contents">
-                        <div className="col-start-1 col-end-2 mr-10 md:ml-auto relative">
+                        <div className="col-start-1 col-end-2 mr-8 md:ml-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
                             <div className="h-full w-1 bg-gray-700 pointer-events-none"></div>
                             </div>
@@ -24,7 +24,7 @@ export const Roadmap = () => {
                         </div>
 
                         <div className="flex md:contents">
-                        <div className="col-start-1 col-end-2 mr-10 md:ml-auto relative">
+                        <div className="col-start-1 col-end-2 mr-8 md:ml-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
                             <div className="h-full w-1 bg-gray-700 pointer-events-none"></div>
                             </div>
@@ -41,7 +41,7 @@ export const Roadmap = () => {
                         </div>
 
                         <div className="flex md:contents">
-                        <div className="col-start-1 col-end-2 mr-10 md:ml-auto relative">
+                        <div className="col-start-1 col-end-2 mr-8 md:ml-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
                             <div className="h-full w-1 bg-green-500 pointer-events-none"></div>
                             </div>
@@ -58,7 +58,7 @@ export const Roadmap = () => {
                         </div>
 
                         <div className="flex md:contents">
-                        <div className="col-start-1 col-end-2 mr-10 md:ml-auto relative">
+                        <div className="col-start-1 col-end-2 mr-8 md:ml-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
                             <div className="h-full w-1 bg-gray-300 pointer-events-none"></div>
                             </div>
