@@ -5,7 +5,7 @@ import { Navbar } from '../components/Navbar';
 import { Technologies } from '../components/Technologies';
 import { FaYoutube, FaTwitch, FaGithub, FaLinkedin} from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
-import Particles from 'react-particles-js';
+import Particles from "react-tsparticles";
 import particlesConfig from '../styles/particlesConfig';
 
 function Index() {
