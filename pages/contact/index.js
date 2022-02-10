@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { NavbarContact } from '../../components/Navbarcontact';
+import { Navbar } from '../../components/Navbar';
 import { useState } from 'react'
 
 function Contact() {
@@ -52,7 +52,7 @@ function Contact() {
     <Head>
         <title>Anthony Bartczak Portfolio</title>
     </Head>
-    <NavbarContact/>
+    <Navbar/>
             <div className="relative mt-12 mb-8">
             <div className="mx-4 xl:mx-80 absolute filter -inset-0.5 bg-gradient-to-r from-teal-300 via-blue-400 to-purple-400 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <form className="relative bg-gray-800 rounded-2xl shadow-2xl md:col-span-8 mt-5 pt-8 pb-1 px-8 mx-4 xl:mx-80">

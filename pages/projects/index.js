@@ -1,6 +1,6 @@
 import { CgArrowLeftR } from "react-icons/cg";
 import { SiGithub } from "react-icons/si";
-import { NavbarProjects } from '../../components/Navbarprojects';
+import { Navbar } from '../../components/Navbar';
 import Head from 'next/head';
 import languageColors from '../projects/github-language.colors';
 import {useSpring, animated} from 'react-spring'
@@ -40,7 +40,7 @@ function Projects( {repos} ) {
         <Head>
           <title>Anthony Bartczak Portfolio</title>
         </Head>
-        <NavbarProjects/>
+        <Navbar/>
         <div className="dark-bg">
           {repos && (
           <div className="mt-8 pb-4 mx-8 grid gap-4 xl:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 md:gap-16 grid-flow-row items-center">

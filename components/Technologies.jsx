@@ -10,19 +10,23 @@ export const Technologies = () => {
                 <div className="item-techstack">
                     <a className="title-techstack">FRONTEND</a>
                     <ul className="font-abel list-none">
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
                             <SiReact className="mr-2"/>
                             <p>React.js</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                            <SiNextdotjs className="mr-2"/>
+                            <p>Next.js</p>
+                        </li>
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
                             <SiBootstrap className="mr-2"/>
                             <p>Bootstrap</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
                             <SiTailwindcss className="mr-2"/>
                             <p>Tailwind</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500 justify-center">
+                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
                             <SiChakraui className="mr-2"/>
                             <p>Chakra UI</p>
                         </li>
@@ -34,10 +38,6 @@ export const Technologies = () => {
                         <li className="btn-techstack border-teal-600 hover:bg-teal-600">
                             <SiDjango className="mr-2"/>
                             <p>Django</p>
-                        </li>
-                        <li className="btn-techstack border-teal-600 hover:bg-teal-600">
-                            <SiNextdotjs className="mr-2"/>
-                            <p>Next.js</p>
                         </li>
                         <li className="btn-techstack border-teal-600 hover:bg-teal-600">
                             <SiNodedotjs className="mr-2"/>

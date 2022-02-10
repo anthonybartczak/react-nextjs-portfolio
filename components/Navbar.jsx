@@ -18,11 +18,6 @@ export const Navbar = () => {
     menu.classList.toggle("hidden");
   }
 
-  function scrollToID(id) {
-    const element = document.getElementById(id)
-    element.scrollIntoView()
-  }
-
   React.useEffect(() => {
     window.addEventListener('scroll', changeBackground)
   })
@@ -34,9 +29,7 @@ export const Navbar = () => {
           <div className="flex justify-center">
             <div className="flex space-x-16">
               <div className="hidden md:flex items-center space-x-1">
-                <a onClick={() => scrollToID("home")} className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Home</a>
-                <a onClick={() => scrollToID("timeline")} className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Timeline</a>
-                <a onClick={() => scrollToID("tech-stack")} className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Tech</a>
+                <Link href={"/"} as={"/"} passHref><a className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Home</a></Link>
                 <Link href={"/projects"} as={"/projects"} passHref><a className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Projects</a></Link>
                 <Link href={"/contact"} as={"/contact"} passHref><a className="font-abel text-lg py-3 px-6 text-gray-500 font-semibold hover:text-gray-700 transition duration-300 border-b-2 hover:border-green-400">Contact</a></Link>
               </div>
