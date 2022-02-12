@@ -2,7 +2,7 @@ import { CgArrowLeftR } from "react-icons/cg";
 import { SiGithub } from "react-icons/si";
 import { Navbar } from '../../components/Navbar';
 import Head from 'next/head';
-import languageColors from '../projects/github-language.colors';
+import languageColors from './github-language.colors.json';
 import {useSpring, animated} from 'react-spring'
 import Link from 'next/link'
 
@@ -18,7 +18,7 @@ export async function getStaticProps() {
 }
 
 
-function Projects( {repos} ) {
+export default function Projects( {repos} ) {
 
   const fade = useSpring({ from: { opacity: 0}, to: { opacity: 1},  duration: 2000})
 
@@ -27,13 +27,12 @@ function Projects( {repos} ) {
   }
 
   return (
-      <>
-        <style global jsx>{`
-            body {
-              height: 100%;
-              background-color: #161B22;
-            }
-        `}</style>
+        // <style global jsx>{`
+        //     body {
+        //       height: 100%;
+        //       background-color: #161B22;
+        //     }
+        // `}</style>
 
 
         <div className="repo-body">
@@ -67,8 +66,5 @@ function Projects( {repos} ) {
         )}
         </div>
         </div>
-      </>
     )
 }
-
-export default Projects

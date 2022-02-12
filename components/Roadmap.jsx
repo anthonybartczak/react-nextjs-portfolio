@@ -47,13 +47,12 @@ export const Roadmap = () => {
                             </div>
                         </div>
                         <div className="block-timeline bg-gray-700">
-                            <h3 className="font-abel font-semibold text-2xl mb-1">Hewlett Packard Enterprise</h3>
-                            <p className="font-abel leading-tight w-full text-lg">
-                            Junior Sales Compensation Analyst
+                            <h3 className="font-abel font-semibold subpixel text-2xl mb-1">Piwik PRO</h3>
+                            <p className="font-abel leading-tight text-lg">
+                            Technical Support Engineer
                             </p>
                         </div>
                         </div>
-
                         <div className="flex md:contents">
                         <div className="col-start-1 col-end-2 mr-8 md:ml-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
@@ -64,9 +63,9 @@ export const Roadmap = () => {
                             </div>
                         </div>
                         <div className="block-timeline bg-gray-700">
-                            <h3 className="font-abel font-semibold subpixel text-2xl mb-1">Piwik PRO</h3>
-                            <p className="font-abel leading-tight text-lg">
-                            Technical Support Engineer
+                            <h3 className="font-abel font-semibold text-2xl mb-1">Hewlett Packard Enterprise</h3>
+                            <p className="font-abel leading-tight w-full text-lg">
+                            Junior Sales Compensation Analyst
                             </p>
                         </div>
                         </div>
