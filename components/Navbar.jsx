@@ -6,7 +6,7 @@ import {FiSun, FiMoon} from 'react-icons/fi';
 export const Navbar = () => {
 
   const [navbar, setNavbar] = useState(false);
-  const {theme, setTheme} = useTheme();
+  const {systemTheme, theme, setTheme} = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {

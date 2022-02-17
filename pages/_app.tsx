@@ -5,7 +5,7 @@ import { ThemeProvider } from 'next-themes';
 
 export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
-    <ThemeProvider attribute='class'>
+    <ThemeProvider attribute='class' enableSystem={true}>
       <Component {...pageProps} />
     </ThemeProvider>
   );
