@@ -88,6 +88,7 @@ export const Navbar = () => {
             <Link href={"/"} as={"/"} passHref><li><a className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Home</a></li></Link>
             <Link href={"/projects"} as={"/projects"} passHref><li><a className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Projects</a></li></Link>
             <Link href={"/contact"} as={"/contact"} passHref><li><a className="font-abel subpixel-antialiased text-md text-center font-bold block px-2 py-4 hover:bg-green-500 transition duration-300">Contact</a></li></Link>
+            {renderThemeChanger()}
           </ul>
         </div>
       </nav>
