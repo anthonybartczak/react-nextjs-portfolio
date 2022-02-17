@@ -4,7 +4,6 @@ import { Navbar } from '../../components/Navbar';
 import Head from 'next/head';
 import languageColors from './github-language.colors.json';
 import {useSpring, animated} from 'react-spring'
-import Link from 'next/link'
 
 export async function getStaticProps() {
   const res = await fetch(`https://api.github.com/users/anthonybartczak/repos?sort=creation`)

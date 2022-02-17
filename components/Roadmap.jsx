@@ -9,14 +9,14 @@ export const Roadmap = () => {
                         <div className="flex md:contents">
                         <div className="col-start-1 col-end-2 mr-8 md:ml-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
-                            <div className="h-full w-1 bg-gray-300 pointer-events-none"></div>
+                            <div className="h-full w-1 bg-gray-300 dark:bg-gray-500 pointer-events-none"></div>
                             </div>
-                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-300 shadow text-center">
+                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-300 dark:bg-gray-500 shadow text-center">
                             <i className="fas fa-exclamation-circle text-gray-400"></i>
                             </div>
                         </div>
-                        <div className="block-timeline bg-gray-300">
-                            <h3 className="font-abel font-semibold text-xl mb-1 text-gray-400">To be continued...</h3>
+                        <div className="block-timeline bg-gray-300 dark:bg-gray-500">
+                            <h3 className="font-abel font-semibold text-xl mb-1 text-gray-400 dark:text-gray-100">To be continued...</h3>
                             <p className="leading-tight">
                             </p>
                         </div>
@@ -24,13 +24,13 @@ export const Roadmap = () => {
                         <div className="flex md:contents">
                         <div className="col-start-1 col-end-2 mr-8 md:ml-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
-                            <div className="h-full w-1 bg-green-400 pointer-events-none"></div>
+                            <div className="h-full w-1 bg-green-400 dark:bg-green-600 pointer-events-none"></div>
                             </div>
                             <div className="animate-ping w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-green-500 shadow text-center">
                             <i className="fas fa-times-circle text-white"></i>
                             </div>
                         </div>
-                        <div className="block-timeline bg-green-400">
+                        <div className="block-timeline bg-green-400 dark:bg-green-600">
                             <h3 className="font-abel font-semibold text-2xl mb-1 text-gray-50">Ringier Axel Springer Polska</h3>
                             <p className="font-abel leading-tight text-lg">
                             Technical Service Specialist (E-commerce)
