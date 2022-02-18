@@ -10,23 +10,23 @@ export const Technologies = () => {
                 <div className="item-techstack">
                     <a className="title-techstack">FRONTEND</a>
                     <ul className="font-abel list-none">
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                        <li className="btn-techstack dark:bg-rose-500 border-rose-500 hover:bg-rose-500">
                             <SiReact className="mr-2"/>
                             <p>React.js</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                        <li className="btn-techstack dark:bg-rose-500 border-rose-500 hover:bg-rose-500">
                             <SiNextdotjs className="mr-2"/>
                             <p>Next.js</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                        <li className="btn-techstack dark:bg-rose-500 border-rose-500 hover:bg-rose-500">
                             <SiBootstrap className="mr-2"/>
                             <p>Bootstrap</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                        <li className="btn-techstack dark:bg-rose-500 border-rose-500 hover:bg-rose-500">
                             <SiTailwindcss className="mr-2"/>
                             <p>Tailwind</p>
                         </li>
-                        <li className="btn-techstack border-rose-500 hover:bg-rose-500">
+                        <li className="btn-techstack dark:bg-rose-500 border-rose-500 hover:bg-rose-500">
                             <SiChakraui className="mr-2"/>
                             <p>Chakra UI</p>
                         </li>
@@ -35,19 +35,19 @@ export const Technologies = () => {
                 <div className="item-techstack">
                     <a className="title-techstack">BACKEND</a>
                     <ul className="font-abel list-none text-center">
-                        <li className="btn-techstack border-teal-600 hover:bg-teal-600">
+                        <li className="btn-techstack dark:bg-teal-600 border-teal-600 hover:bg-teal-600">
                             <SiDjango className="mr-2"/>
                             <p>Django</p>
                         </li>
-                        <li className="btn-techstack border-teal-600 hover:bg-teal-600">
+                        <li className="btn-techstack dark:bg-teal-600 border-teal-600 hover:bg-teal-600">
                             <SiNodedotjs className="mr-2"/>
                             <p>Node.js</p>
                         </li>
-                        <li className="btn-techstack border-teal-600 hover:bg-teal-600">
+                        <li className="btn-techstack dark:bg-teal-600 border-teal-600 hover:bg-teal-600">
                             <SiApollographql className="mr-2"/>
                             <p>Apollo</p>
                         </li>
-                        <li className="btn-techstack border-teal-600 hover:bg-teal-600">
+                        <li className="btn-techstack dark:bg-teal-600 border-teal-600 hover:bg-teal-600">
                             <SiPrisma className="mr-2"/>
                             <p>Prisma</p>
                         </li>
@@ -56,15 +56,15 @@ export const Technologies = () => {
                 <div className="item-techstack">
                     <a className="title-techstack">DESIGN</a>
                     <ul className="font-abel list-none text-center">
-                        <li className="btn-techstack border-indigo-600 hover:bg-indigo-600">
+                        <li className="btn-techstack dark:bg-indigo-600 border-indigo-600 hover:bg-indigo-600">
                             <SiAdobephotoshop className="mr-2"/>
                             <p>Adobe Ps</p>
                         </li>
-                        <li className="btn-techstack border-indigo-600 hover:bg-indigo-600">
+                        <li className="btn-techstack dark:bg-indigo-600 border-indigo-600 hover:bg-indigo-600">
                             <SiAdobexd className="mr-2"/>
                             <p>Adobe XD</p>
                         </li>
-                        <li className="btn-techstack border-indigo-600 hover:bg-indigo-600">
+                        <li className="btn-techstack dark:bg-indigo-600 border-indigo-600 hover:bg-indigo-600">
                             <SiFigma className="mr-2"/>
                             <p>Figma</p>
                         </li>

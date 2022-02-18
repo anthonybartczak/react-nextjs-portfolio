@@ -20,8 +20,8 @@ function Index() {
         <div>
           <Particles className="particles-background" params={particlesConfig} />
         </div>
-        <main className="p-6 max-w-sm mx-auto bg-gray-50 dark:bg-slate-800 rounded-sm shadow-2xl items-center my-5 flex flex-wrap justify-center">
-          <div className="filter backdrop-blur-lg dark:bg-slate-800 object-contain">
+        <main className="p-6 max-w-sm mx-auto bg-gray-50 dark:bg-gray-800 rounded-md shadow-2xl items-center my-5 flex flex-wrap justify-center">
+          <div className="filter backdrop-blur-lg dark:bg-gray-800 object-contain">
             <Image width="751" height="660"src="/index-pic.jpg" alt="..." loading="eager" className="dark:bg-slate-800 rounded-full max-w-full h-auto align-middle border-none"/>
           </div>
           <div className='m-4 align-middle font-abel text-xl subpixel-antialiased font-medium text-center'>
