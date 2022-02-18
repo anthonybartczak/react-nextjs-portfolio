@@ -46,7 +46,7 @@ export default function Projects( {repos} ) {
             <animated.div style={fade} key={repo.id}>
               <div className="relative my-2">
                 <div className="filter absolute -inset-0.5 bg-gradient-to-r from-teal-300 via-blue-400 to-purple-400 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                  <div className="relative rounded-xl border-black bg-gray-800 shadow-xl border-opacity-50 p-8">
+                  <div className="relative rounded-xl border-black bg-white dark:bg-gray-800 shadow-xl border-opacity-50 p-8">
                     <h2 className="repo-name mr-4">{repo.name}</h2>
                     <div className="repo-lang-wrapper flex">
                       <div className="repo-lang-dot" style={{backgroundColor: getColorMap(repo.language)}}></div>

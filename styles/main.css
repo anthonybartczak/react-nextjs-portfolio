@@ -110,7 +110,7 @@ html, body {
 .repo-name {
     @apply
     text-2xl
-    text-white
+    dark:text-white
     font-abel
     mb-3
     font-semibold
@@ -120,7 +120,7 @@ html, body {
     @apply
     transition
     transform hover:-translate-y-1
-    text-white
+    dark:text-white
 }
 
 .repo-language {
@@ -131,7 +131,7 @@ html, body {
     w-max
     py-1
     px-1.5
-    text-white
+    dark:text-white
 }
 
 .repo-lang-dot {
