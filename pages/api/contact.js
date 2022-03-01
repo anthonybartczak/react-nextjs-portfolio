@@ -12,7 +12,7 @@ export default async (req, res) => {
       }
     });
     const mailData = {
-      from: 'elvera.balistreri55@ethereal.emai',
+      from: 'elvera.balistreri55@ethereal.email',
       to: `${process.env.REACT_APP_MY_EMAIL}`,
       subject: `Message From ${req.body.firstName} ${req.body.lastName}`,
       text: req.body.messageContent + " | Sent from: " + req.body.emailAddress,
