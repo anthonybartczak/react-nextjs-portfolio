@@ -13,7 +13,7 @@ export default async (req, res) => {
       secure: true,
     })
     const mailData = {
-      from: 'antoni.bartczak.mailer@gmail.com',
+      from: 'canadian.arma@gmail.com',
       to: `${process.env.REACT_APP_MY_EMAIL}`,
       subject: `Message From ${req.body.firstName} ${req.body.lastName}`,
       text: req.body.messageContent + " | Sent from: " + req.body.emailAddress,

@@ -26,14 +26,6 @@ export default function Projects( {repos} ) {
   }
 
   return (
-        // <style global jsx>{`
-        //     body {
-        //       height: 100%;
-        //       background-color: #161B22;
-        //     }
-        // `}</style>
-
-
         <div className="repo-body">
         <Head>
           <title>Anthony Bartczak Portfolio</title>
