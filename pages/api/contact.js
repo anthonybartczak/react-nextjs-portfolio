@@ -4,13 +4,13 @@ export default async (req, res) => {
 
     let nodemailer = require('nodemailer')
     const transporter = nodemailer.createTransport({
-      port: 465,
-      host: "smtp.gmail.com",
+      service: 'gmail',
       auth: {
         user: process.env.REACT_APP_EMAIL_HANDLER,
         pass: process.env.REACT_APP_EMAIL_PASSWORD,
       },
-      secure: true,
+      secure: false,
+      requireTLS: true,
     })
     const mailData = {
       from: 'canadian.arma@gmail.com',
