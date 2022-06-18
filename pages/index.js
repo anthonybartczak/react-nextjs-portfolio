@@ -25,7 +25,7 @@ function Index() {
     <>
       <div id='home' className=''>
         <Head>
-          <title>anthonyb.tech</title>
+          <title>Antoni Bartczak | Web Analytics & App Dev</title>
         </Head>
         <Navbar/>
         <div>
