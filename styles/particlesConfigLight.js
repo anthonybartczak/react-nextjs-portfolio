@@ -1,6 +1,6 @@
 // src/config/particlesConfig.js
 
-const particlesConfig = {
+const particlesConfigLight = {
     "particles": {
       "number": {
         "value": 320,
@@ -112,4 +112,4 @@ const particlesConfig = {
     "retina_detect": true
   }
 
-export default particlesConfig;
+export default particlesConfigLight;

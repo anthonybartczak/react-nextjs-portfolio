@@ -6,19 +6,30 @@ import { Technologies } from '../components/Technologies';
 import { FaYoutube, FaTwitch, FaGithub, FaLinkedin} from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import Particles from "react-tsparticles";
-import particlesConfig from '../styles/particlesConfig';
+import particlesConfigLight from '../styles/particlesConfigLight';
+import particlesConfigDark from '../styles/particlesConfigDark';
+import { useTheme } from "next-themes";
 
 function Index() {
+
+  const { theme } = useTheme();
+  let particles;
+
+  if (theme == 'light') {
+    particles = <Particles className="particles-background" params={particlesConfigLight}/>
+  } else {
+    particles =  <Particles className="particles-background" params={particlesConfigDark}/>
+  };
 
   return (
     <>
       <div id='home' className=''>
         <Head>
-          <title>Anthony Bartczak Portfolio</title>
+          <title>anthonyb.tech</title>
         </Head>
         <Navbar/>
         <div>
-          <Particles className="particles-background" params={particlesConfig} />
+          { particles }
         </div>
         <main className="p-6 max-w-sm mx-2 md:mx-auto bg-gray-50 dark:bg-gray-800 rounded-md shadow-2xl items-center my-5 flex flex-wrap justify-center">
           <div className="filter backdrop-blur-lg dark:bg-gray-800 object-contain">
