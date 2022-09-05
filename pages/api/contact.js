@@ -4,15 +4,15 @@ export default async (req, res) => {
 
     let nodemailer = require('nodemailer')
     const transporter = nodemailer.createTransport({
-      host: 'smtp.ethereal.email',
-      port: 587,
+      host: 'smtp.gmail.com',
+      port: 465,
       auth: {
         user: process.env.REACT_APP_EMAIL_HANDLER,
         pass: process.env.REACT_APP_EMAIL_PASSWORD,
       }
     });
     const mailData = {
-      from: 'elvera.balistreri55@ethereal.email',
+      from: 'antoni.bartczak.mailer@gmail.com',
       to: `${process.env.REACT_APP_MY_EMAIL}`,
       subject: `Message From ${req.body.firstName} ${req.body.lastName}`,
       text: req.body.messageContent + " | Sent from: " + req.body.emailAddress,
