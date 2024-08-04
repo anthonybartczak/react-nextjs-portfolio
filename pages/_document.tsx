@@ -20,17 +20,28 @@ class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-              (function(window, document, dataLayerName, id) {
-              function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
-              var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
-              var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
-              document.write('<script src="https://abartczak.containers.piwik.pro/'+id+'.sync.js' + qPString + '"></' + 'script>');
-              })(window, document, 'dataLayer', '44d572e2-70d8-48dc-85c5-a33c68e36c50');
+              <!-- Google Tag Manager -->
+              <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-MKHGC28F');</script>
+              <!-- End Google Tag Manager -->
               `,
             }}
           ></script>
         </Head>
         <body>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              <!-- Google Tag Manager (noscript) -->
+              <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKHGC28F"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+              <!-- End Google Tag Manager (noscript) -->
+              `,
+            }}
+          ></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
