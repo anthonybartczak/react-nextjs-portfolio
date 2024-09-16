@@ -84,7 +84,6 @@ export const Navbar = () => {
                   </a>
                 </Link>
                 <a
-                  target="_blank"
                   href="https://requests.anteriam.com"
                   className="border-b-2 py-3 px-6 font-abel text-lg font-semibold text-gray-500 transition duration-300 hover:border-green-400 hover:text-gray-700 dark:text-gray-50"
                 >
@@ -138,7 +137,6 @@ export const Navbar = () => {
             </Link>
             <li>
               <a
-                target="_blank"
                 href="https://requests.anteriam.com"
                 className="text-md block px-2 py-4 text-center font-abel font-bold subpixel-antialiased transition duration-300 hover:bg-green-500"
               >
