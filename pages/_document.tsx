@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
@@ -17,6 +18,13 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
             rel="stylesheet"
           />
+          <script
+            id="CookieConsent"
+            src="https://policy.app.cookieinformation.com/uc.js"
+            data-culture="EN"
+            data-gcm-version="2.0"
+            type="text/javascript"
+          ></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
