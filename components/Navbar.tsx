@@ -45,12 +45,14 @@ export const Navbar = () => {
   };
 
   const generateDlEvent = () => {
-    window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-      event: "login",
-      login_domain: "requests.anteriam.com"
-    });
+    if (typeof window !== 'undefined' && window.dataLayer) {
+      window.dataLayer.push({
+        event: "login",
+        login_domain: "requests.anteriam.com"
+      });
+    }
   };
+
 
   function onClickMobile() {
     const menu = document.querySelector(".mobile-menu");
