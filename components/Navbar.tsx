@@ -45,12 +45,11 @@ export const Navbar = () => {
   };
 
   const generateDlEvent = () => {
-    if (typeof window !== 'undefined' && window.dataLayer) {
-      window.dataLayer.push({
-        event: "login",
-        login_domain: "requests.anteriam.com"
-      });
-    }
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      event: "login",
+      login_domain: "requests.anteriam.com"
+    });
   };
 
 
