@@ -4,6 +4,12 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { FiSun, FiMoon } from "react-icons/fi";
 
+declare global {
+  interface Window {
+    dataLayer?: any;
+  }
+}
+
 export const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
