@@ -44,6 +44,14 @@ export const Navbar = () => {
     }
   };
 
+  const generateDlEvent = () => {
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      event: "login",
+      login_domain: "requests.anteriam.com"
+    });
+  };
+
   function onClickMobile() {
     const menu = document.querySelector(".mobile-menu");
     menu.classList.toggle("hidden");
@@ -84,6 +92,7 @@ export const Navbar = () => {
                   </a>
                 </Link>
                 <a
+                  onClick={() => generateDlEvent()}
                   href="https://requests.anteriam.com"
                   className="border-b-2 py-3 px-6 font-abel text-lg font-semibold text-gray-500 transition duration-300 hover:border-green-400 hover:text-gray-700 dark:text-gray-50"
                 >
