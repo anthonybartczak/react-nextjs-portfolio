@@ -46,7 +46,7 @@ export const Navbar = () => {
 
   const generateDlEvent = () => {
     window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
+    window.dataLayer.push({
       event: "login",
       login_domain: "requests.anteriam.com"
     });
