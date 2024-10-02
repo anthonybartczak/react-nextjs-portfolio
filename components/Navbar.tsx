@@ -48,7 +48,7 @@ export const Navbar = () => {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: "login",
-      login_domain: "requests.anteriam.com"
+      login_domain: "anteriam.pl"
     });
   };
 
