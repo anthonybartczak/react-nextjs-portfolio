@@ -21,7 +21,6 @@ class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-              <script>
                 (function (sCDN, sCDNProject, sCDNWorkspace, sCDNVers) {
                   if (
                     window.localStorage !== null &&
@@ -54,7 +53,6 @@ class MyDocument extends Document {
               
                 _jts.push({ track: "pageview" });
                 _jts.push({ track: "submit" });
-              </script>
               `,
             }}
           ></script>
