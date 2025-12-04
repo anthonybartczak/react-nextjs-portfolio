@@ -18,6 +18,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
             rel="stylesheet"
           />
+          <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/5265d65fe0690b978e321665e219d79d/script.js"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
